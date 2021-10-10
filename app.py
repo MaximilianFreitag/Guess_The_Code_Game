@@ -113,5 +113,5 @@ if __name__ == "__main__":
             # wait for .2 seconds before clearing cache and rerunning the app
             sleep(0.2)
             
-            #caching.clear_cache()
+            st.legacy_caching.clear_cache())
             st.experimental_rerun()
